@@ -3,12 +3,28 @@
 ### Clone o projeto
 git clone https://github.com/rennanribeiro/webx-crawler.git
 
-## Utilização:
+### Altere o acesso ao banco
+
+No arquivo _app/Config/Database.php_ modifique os dados de acesso ao banco de dados.
+
+class DATABASE_CONFIG {
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		**'host' 		 => 'localhost',**
+		**'login'		 => '',**
+		**'password'	 => '',**
+		**'database'	 => 'webx',**
+		'encoding'	 => 'utf8',
+	);
+}
+
+### Utilização:
 - Acesse o projeto utlizando o nevegador.
 - No terminal, na pasta raiz do projeto, rode: _./app/Console/cake crawler_ 
 - _control + c_ no terminal para finalizar as buscas na paginas
 
-## Pré-requisito
+### Pré-requisito
 
 - php -v >= 5.2.9
 
