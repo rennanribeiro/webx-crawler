@@ -3,6 +3,15 @@
 ### Clone o projeto
 git clone https://github.com/rennanribeiro/webx-crawler.git
 
+## Utilização:
+- Acesse o projeto utlizando o nevegador.
+- No terminal, na pasta raiz do projeto, rode: ./app/Console/cake crawler 
+- control + c no terminal para finalizar as buscas na pagina
+
+## Pré-requisito
+
+- php -v >= 5.2.9
+
 ### Banco de dados
 
 Sugiro seguir:
@@ -23,11 +32,6 @@ CREATE TABLE `webx`.`emails`(
 
 -- exemplo de URL inicial
 INSERT INTO `webx`.`urls`(url) VALUES('https://www.google.com.br/?gfe_rd=ctrl&ei=9xcNU6uRGYfJ8Qa-moHwAg&gws_rd=cr#q=webx&safe=off');
-
-## Utilização:
--- Acesse o projeto utlizando o nevegador.
--- No terminal, na pasta raiz do projeto, rode: _ **./app/Console/cake crawler**_.
--- **control + c** _ no terminal para finalizar as buscas na pagina
 
 
 
