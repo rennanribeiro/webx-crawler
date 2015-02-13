@@ -5,8 +5,8 @@ git clone https://github.com/rennanribeiro/webx-crawler.git
 
 ## Utilização:
 - Acesse o projeto utlizando o nevegador.
-- No terminal, na pasta raiz do projeto, rode: ./app/Console/cake crawler 
-- control + c no terminal para finalizar as buscas na pagina
+- No terminal, na pasta raiz do projeto, rode: _./app/Console/cake crawler_ 
+- _control + c_ no terminal para finalizar as buscas na paginas
 
 ## Pré-requisito
 
