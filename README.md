@@ -4,20 +4,7 @@
 git clone https://github.com/rennanribeiro/webx-crawler.git
 
 ### Altere o acesso ao banco
-
 No arquivo _app/Config/Database.php_ modifique os dados de acesso ao banco de dados.
-
-class DATABASE_CONFIG {
-	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		**'host' 		 => 'localhost',**
-		**'login'		 => '',**
-		**'password'	 => '',**
-		**'database'	 => 'webx',**
-		'encoding'	 => 'utf8',
-	);
-}
 
 ### Utilização:
 - Acesse o projeto utlizando o nevegador.
