@@ -1,8 +1,7 @@
 # webx-crawler
-## Download e Instalação:
 
 ### Clone o projeto
-git clone uasds
+git clone https://github.com/rennanribeiro/webx-crawler.git
 
 ### Banco de dados
 
